@@ -1,6 +1,7 @@
 {
     "name": "geffest/laravel-quotes",
     "description": "A Laravel Package that shows random quotes",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexander Kuznetsov",
