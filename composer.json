@@ -1,0 +1,25 @@
+{
+    "name": "geffest/quotes",
+    "description": "A Laravel Package that shows random quotes",
+    "authors": [
+        {
+            "name": "Alexander Kuznetsov",
+            "email": "geff21st@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Geffest\\Quotes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Geffest\\Quotes\\QuotesServiceProvider"
+            ]
+        }
+    }
+}
