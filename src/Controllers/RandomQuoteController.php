@@ -4,12 +4,14 @@
 namespace Geffest\Quotes\Controllers;
 
 
-class RandomQuoteController
+use Illuminate\Routing\Controller;
+
+class RandomQuoteController extends Controller
 {
 
     public function index()
     {
-        return view();
+        return view('quotes::random');
     }
 
 }
